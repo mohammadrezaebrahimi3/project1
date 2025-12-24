@@ -59,6 +59,7 @@ class CartItemApiView(APIView):
     
 
 
+
     def post(self, request,*args,**kwargs):
         serializer=self.get_serializer_class()(data=request.data,context={'cart':self.cart})
         if serializer.is_valid():
