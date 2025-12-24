@@ -1,0 +1,1 @@
+from .page_pagination import CustomerPaginator,ProductPaginator
